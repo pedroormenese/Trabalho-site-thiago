@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>🎉 Inscrição para Eventos Tecnológicos</h1>
+    <p>Preencha o formulário abaixo para participar de nossos eventos. Todos os campos são importantes para organização e logística.</p>
+<hr>
+
+<blockquote>Informações pessoais</blockquote>
+<blockquote>Nome Completo:</blockquote>
+<blockquote><textarea name="name_input" id="name_id" rows="1" cols="24" placeholder="Digite o seu nome completo"></textarea></blockquote>
+<blockquote><p>E-mail:</p></blockquote>
+<blockquote><textarea name="email_input" id="email_id" rows="1" cols="24" placeholder="seu@email.com"></textarea></blockquote>
+<blockquote><p>Telefone:</p></blockquote>
+<blockquote><textarea name="number_input" id="number_id" rows="1" cols="24" placeholder="(99) 99999-9999"></textarea></blockquote>
+<blockquote><p>Idade:</p></blockquote>
+<blockquote><textarea name="age_input" id="age_id" rows="1" cols="10"></textarea></blockquote>
+
+<br><br><br><br>
+
+<blockquote>Endereço:</blockquote>
+<blockquote>Rua:</blockquote>
+<blockquote><textarea name="adress_input" id="adress_id" rows="1" cols="24"></textarea></blockquote>
+<blockquote>Cidade:</blockquote>
+<blockquote><textarea name="email_input" id="email_id" rows="1" cols="24"></textarea></blockquote>
+<blockquote>Estado:</blockquote>
+
+<label for="options"></label>
+<blockquote>
+<select id="options">
+    <option value="" disabled selected hidden>Selecione...</option>
+    <option value="1">São Paulo</option>
+    <option value="2">Rio de Janeiro</option>
+    <option value="3">Espírito Santo</option>
+    <option value="4">Minas Gerais</option>
+</select>
+</blockquote>
+
+<blockquote>CEP:</blockquote>
+<blockquote><textarea name="cep_input" id="cep_id" rows="1" cols="24" placeholder="00000-000"></textarea></blockquote>
+
+<blockquote>Experiência e Conhecimento</blockquote>
+
+<blockquote>
+<form>
+  <p>Nível de conhecimento em Tecnologia:</p>
+  <input type="radio" id="starter" name="option" value="starter">
+  <label for="starter">Iniciante</label><br>
+
+  <input type="radio" id="intermediate" name="option" value="intermediate">
+  <label for="intermediate">Intermediário</label><br>
+
+  <input type="radio" id="advanced" name="option" value="advanced">
+  <label for="advanced">Avançado</label>
+</form>
+</blockquote>
+
+<br>
+
+<blockquote>
+<form>
+  <p>Áreas de interesse:</p>
+
+  <input type="checkbox" id="html" name="html" value="html">
+  <label for="html">HTML</label><br>
+
+  <input type="checkbox" id="css" name="css" value="css">
+  <label for="css">CSS</label><br>
+
+  <input type="checkbox" id="javascript" name="javascript" value="javascript">
+  <label for="javascript">JavaScript</label><br>
+
+
+  <input type="checkbox" id="python" name="python" value="python">
+  <label for="python">Python</label>
+</form>
+</blockquote>
+
+<blockquote>Detalhes do Evento</blockquote>
+
+<blockquote><label for="options">Tipo de evento</label></blockquote>
+<blockquote>
+<select id="options">
+    <option value="" disabled selected hidden>Selecione...</option>
+</select>
+</blockquote>
+
+<blockquote>
+    <form>
+        <label for="nascimento">Data:</label><br>
+        <input type="date" id="data" name="data">
+    </form>
+</blockquote>
+
+<blockquote>
+    <form>
+        <label for="time">Hora de início:</label><br>
+        <input type="time" id="time" name="time">
+    </form>
+</blockquote>
+
+<blockquote>
+    <form>
+        <p>Número de participantes:</p>
+        <textarea name="participantes" id="participantes" rows="1" cols="10"></textarea>
+    </form>
+</blockquote>
+
+<br>
+
+<blockquote>
+    Preferências e Notificações
+    <form>
+  <p>Formato do Evento:</p>
+  <input type="radio" id="online" name="online" value="online">
+  <label for="online">Online</label><br>
+
+  <input type="radio" id="presencial" name="presencial" value="presencial">
+  <label for="presencial">Presencial</label><br>
+</form>
+</blockquote>
+
+<blockquote><label for="options">Horário preferido:</label></blockquote>
+<blockquote>
+<select id="options">
+    <option value="" disabled selected hidden>Selecione...</option>
+</select>
+</blockquote>
+
+<br>
+
+<form>
+  <input type="checkbox" id="html" name="html" value="html">
+  <label for="html"> Quero receber novidades e newsletters</label><br>
+</form>
+
+<br>
+<br>
+
+<blockquote>Upload de Arquivos</blockquote>
+<blockquote>Enviar Currículo (PDF):
+
+<form>
+  <label for="arquivo">Escolha um arquivo:</label>
+  <input type="file" id="arquivo" name="arquivo">
+</form>
+</blockquote>
+
+<blockquote>Portifólio (opcional):
+<form>
+  <label for="arquivo">Escolha um arquivo:</label>
+  <input type="file" id="arquivo" name="arquivo">
+</form>
+</blockquote>
+
+<br>
+<br>
+
+<blockquote>Observações</blockquote>
+<blockquote>Mensagem:</blockquote>
+<blockquote><textarea name="message_input" id="message_id" rows="2" cols="24" placeholder="Digite o seu nome completo"></textarea></blockquote>   
+
+<br>
+<br>
+
+<button onclick="alert('Enviado!')">Enviar inscrição</button>
+
+<br><br><br>
+
+
+</body>
+</html>
